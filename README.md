@@ -31,7 +31,10 @@ Then open the ~/.bashrc file -
 	if [ -d "$HOME/platform-tools" ] ; then
 		PATH="$HOME/platform-tools:$PATH"
 	fi
+	
+Then run:-
 
+	$ source ~/.bashrc
 	
 ##	OR
 
@@ -77,3 +80,6 @@ Then open the ~/.bashrc file -
 		PATH="$HOME/bin:$PATH"
 	fi
   
+Then run:-
+
+	$ source ~/.bashrc
