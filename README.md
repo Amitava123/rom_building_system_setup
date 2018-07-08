@@ -2,13 +2,16 @@
 ### <<< Make your System capable of custom ROM building >>>
 
 
-First clone the repositoiy -->
+First make sure to install git and configure it, and istall g++ or this won't work :p
+
+Then clone the repositoiy -->
   
-	$ git clone https://github.com/Akash98Sky/rom_building_system_setup -b new <any dir>
+	$ git clone https://github.com/Amitava123/rom_building_system_setup -b patch-1 <dir>
 * add any directory at the end or keep it empty
 
 Use this to setup the complete system :-
 	
+	$ g++ fullsetup.cpp -o fullsetup.out
 	$ ./fullsetup.out
 
 Then open the ~/.bashrc file -
@@ -35,6 +38,7 @@ Then open the ~/.bashrc file -
 #### <<< Partial Installations >>>
 For installing only SDK :-
   
+	$ g++ install_sdk.cpp -o install_sdk.out
 	$ ./install_sdk.out
   
 Then open the ~/.bashrc file -
@@ -52,12 +56,14 @@ Then open the ~/.bashrc file -
 	
 For installing other packages :-
   
+	$ g++ install_packages.cpp -o install_packages.out
 	$ ./install_packages.out
 
 
 
 For installing only repo :-
   
+	$ g++ install_repo.cpp -o install_repo.out
 	$ ./install_repo.out
 	
 Then open the ~/.bashrc file -
