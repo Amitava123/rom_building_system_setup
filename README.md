@@ -2,7 +2,7 @@
 ### <<< Make your System capable of custom ROM building >>>
 
 
-First make sure to install git and configure it, and istall g++ or this won't work :p
+First make sure to install git and configure it, and install g++ or this won't work :p
 
 Then clone the repositoiy -->
   
