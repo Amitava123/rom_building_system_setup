@@ -18,10 +18,10 @@ void env_setup()
 	fout.close();
 
 	if(flag){
-		cout<< "\nsource ~/.bashrc";
+		cout<< "\nsource ~/.profile";
 		cin.ignore();
 		getchar();
-		system("source ~/.bashrc");
+		system("source ~/.profile");
 		cout<<endl;
 	}
 }
