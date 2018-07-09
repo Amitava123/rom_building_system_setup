@@ -4,7 +4,7 @@
 
 First make sure to install git and configure it, and install g++ or this won't work :p
 
-Then clone the repositoiy -->
+Then clone the repository -->
   
 	$ git clone https://github.com/Amitava123/rom_building_system_setup -b patch-1 <dir>
 * add any directory at the end or keep it empty
@@ -38,8 +38,8 @@ Then run:-
 	
 ##	OR
 
-#### <<< Partial Installations >>>
-For installing only SDK :-
+### <<< Partial Installations >>>
+####For installing only SDK :-
   
 	$ g++ install_sdk.cpp -o install_sdk.out
 	$ ./install_sdk.out
@@ -55,16 +55,19 @@ Then open the ~/.bashrc file -
 		PATH="$HOME/platform-tools:$PATH"
 	fi
 	
+Then run:-
+
+	$ source ~/.bashrc
 	
 	
-For installing other packages :-
+####For installing other packages :-
   
 	$ g++ install_packages.cpp -o install_packages.out
 	$ ./install_packages.out
 
 
 
-For installing only repo :-
+####For installing only repo :-
   
 	$ g++ install_repo.cpp -o install_repo.out
 	$ ./install_repo.out
